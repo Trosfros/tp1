@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(#1a2a6c, #b21f1f, #fdbb2d);
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.table-principale {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.747);
+    border-collapse: collapse;
+}
+
+.table-principale td {
+    padding: 10px;
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+    color: #fdbb2d;
+}
+
+h2 {
+    font-size: 35px;
+    color: #b21f1f;
+    text-align: center;
+}
+
+h3 {
+    font-size: 25px;
+    color: #fd0606;
+}
+
+.synopsis {
+    text-align: justify;
+}
+
+.distribution {
+    background-color: #251736; 
+    padding: 5px; 
+}
+
+.affiche-film {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.acteur {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.acteur.chris-evans { 
+    background-image: url('../images/Chris_Evans.png'); 
+}
+
+.acteur.chris-hemsworth { 
+    background-image: url('../images/Chris_Hemsworth.png'); 
+}
+
+.acteur.jeremy-renner { 
+    background-image: url('../images/Jeremy_Renner.png'); 
+}
+
+.acteur.mark-ruffalo {
+     background-image: url('../images/Mark_Ruffalo.png'); 
+}
+
+.acteur.robert-downey { 
+    background-image: url('../images/Robert_Downey_Jr..png');
+}
+
+.acteur.scarlett-johansson {
+     background-image: url('../images/Scarlett_Johansson.png');
+}
+
+.acteur.tom-hiddleston {
+     background-image: url('../images/Tom_Hiddleston.png'); 
+}
+
+a {
+    color: #fdbb2d;
+    text-decoration: none;
+}
+
+ul {
+    list-style:square 
+}
