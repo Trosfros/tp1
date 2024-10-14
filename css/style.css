@@ -47,7 +47,7 @@ h3 {
 .afficheFilm {
     width: 100%; 
     max-width: 800px; 
-    margin-right: -150px; /* j'avais rencontrer un probleme pour la mise en page mais en essayant de mettre un negatif px sa a regler mon probleme (j'ai trouver avec le site Developer.mozzila. */
+    margin-right: -500px; /* j'avais rencontrer un probleme pour la mise en page mais en essayant de mettre un negatif px sa a regler mon probleme */
 }
 
 .acteur {
