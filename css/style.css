@@ -96,3 +96,7 @@ a {
 ul {
     list-style: square;
 }
+
+#sources {
+    color: red; /* Couleur du texte */
+}
