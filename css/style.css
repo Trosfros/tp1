@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-size: 35px;
     color: #b21f1f;
-    text-align: center;
+    text-align: left; 
 }
 
 h3 {
@@ -35,19 +35,19 @@ h3 {
 }
 
 .synopsis {
-    text-align: justify;
+    text-align: justify; /* appris sur developer.mozilla. mot cle utilisee : text-align */ 
 }
 
 .distribution {
     background-color: #251736; 
     padding: 5px; 
+    text-align: left; 
 }
 
-.affiche-film {
-    width: 100%;
-    max-width: 300px;
-    display: block;
-    margin: auto;
+.afficheFilm {
+    width: 100%; 
+    max-width: 800px; 
+    margin-right: -150px; /* j'avais rencontrer un probleme pour la mise en page mais en essayant de mettre un negatif px sa a regler mon probleme (j'ai trouver avec le site Developer.mozzila. */
 }
 
 .acteur {
@@ -73,7 +73,7 @@ h3 {
 }
 
 .acteur.mark-ruffalo {
-     background-image: url('../images/Mark_Ruffalo.png'); 
+    background-image: url('../images/Mark_Ruffalo.png'); 
 }
 
 .acteur.robert-downey { 
@@ -81,11 +81,11 @@ h3 {
 }
 
 .acteur.scarlett-johansson {
-     background-image: url('../images/Scarlett_Johansson.png');
+    background-image: url('../images/Scarlett_Johansson.png');
 }
 
 .acteur.tom-hiddleston {
-     background-image: url('../images/Tom_Hiddleston.png'); 
+    background-image: url('../images/Tom_Hiddleston.png'); 
 }
 
 a {
@@ -94,5 +94,5 @@ a {
 }
 
 ul {
-    list-style:square 
+    list-style: square;
 }
